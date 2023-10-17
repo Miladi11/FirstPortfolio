@@ -1,0 +1,12 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgb(5, 5, 5);
+}
+
+/* background image */
+.bgimage {
+    height:100vh;
+    background: url('images/BackgroundIMG.avif');
+    background-size:cover;
+    position:relative;
+}
