@@ -1,22 +1,18 @@
+.background{
+    background-color: #faf5f5;
+}
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: rgb(5, 5, 5);
+    background-color: black;
 }
 
-/* background image */
+/* hero background image */
 .bgimage {
     height:100vh;
     background: url('images/BackgroundIMG.avif');
     background-size:cover;
     position:relative;
 }
-
-/* about section image css */
-.imageAboutPage {
-    width: 70%;
-}
-
-
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -33,8 +29,17 @@
     color: white;
 }
 
-.background{
-    background-color: #faf5f5;
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 70%;
 }
 
 /* services section css */
